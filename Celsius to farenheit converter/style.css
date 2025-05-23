@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background:url("temperature-contrast-minimal-thermometer-3d-render-illustration-free-photo.jpg") ;
+  
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.head h1 {
+  margin-top: 40px;
+  color:red;
+  font-size: 60px;
+  box-shadow: 4px 4px 4px;
+}
+
+.converter {
+  background: white;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.options {
+  margin: 20px 0;
+}
+
+.options label {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  width: 200px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #007BFF;
+  font-weight: bold;
+}
